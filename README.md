@@ -4,7 +4,7 @@ Custom Nagios plugin to check filesystem status
 this script checks individual or groups of file systems on Linux, Solaris and AIX. It supports inclusion and exclusion lists. It provides trending data for use with pnp4nagios or other trending tools that use the pnp4nagios format.
 
 
-  check_filesystems.sh [-hl] -w WARN% -c CRIT% [-t #seconds] [-f /filesystem1,/filesystem2,...] [-x exclusionfile_regex.txt | -i inclusionfile_regex.txt]
+    check_filesystems.sh [-hl] -w WARN% -c CRIT% [-t #seconds] [-f /filesystem1,/filesystem2,...] [-x exclusionfile_regex.txt | -i inclusionfile_regex.txt]
 
     -c critical threshold for percent used
     -w warning threshold for percent used
