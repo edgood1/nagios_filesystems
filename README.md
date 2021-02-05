@@ -1,7 +1,7 @@
 # nagios_filesystems
 Custom Nagios plugin to check filesystem status
 
-This script checks individual or groups of file systems on Linux, Solaris and AIX. It gives a little more flexibility than the bundled filesystem plugins as it can read inclusion or excusion lists on client being checked. It also provides trending data for use with pnp4nagios or other trending tools that use the pnp4nagios format.
+This script checks individual or groups of file systems on Linux, Solaris and AIX. It gives a little more flexibility than the bundled filesystem plugins as it can read inclusion or excusion lists on the client being checked. It also provides trending data for use with pnp4nagios or other trending tools that use the pnp4nagios format.
 
 
     check_filesystems.sh [-hl] -w WARN% -c CRIT% [-t #seconds] [-f /filesystem1,/filesystem2,...] [-x exclusionfile_regex.txt | -i inclusionfile_regex.txt]
